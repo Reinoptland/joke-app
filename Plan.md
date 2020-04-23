@@ -27,6 +27,14 @@
 
 ## Building a feature
 
-- [] define a route, the user can send requests to
-- [] we take the input from the `request` that user sent us
-- [] send a response to the user with a joke
+- [x] define a route, the user can send requests to
+- [x] we take the input from the `request` that user sent us (request.params)
+- [x] send a response to the user with a joke
+
+## Push our code to github
+
+- [x] create a repository on github (creating a remote)
+- [x] add a remote repository to our local repository (git remote add git@github....)
+- [] push it to the limit / push it good, real good / push your changes
+
+## How to restart your server automatically
