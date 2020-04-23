@@ -19,10 +19,11 @@
 - [x] if we use package, we want to .gitignore our node_modules
 - [x] initialize package.json (npm init) -> so we can install libraries
 - [x] install the package we need: express
-- [] configure our express
-  - [] import the library and use it
-  - [] set a port
-  - [] make our server listen
+- [x] configure our express
+  - [x] import the library and use it
+  - [x] set a port
+  - [x] make our server listen
+  - [x] make a start script in package.json
 
 ## Building a feature
 
