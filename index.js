@@ -11,3 +11,8 @@ const port = 4000;
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
+
+// define routes
+app.get("/jokes", () => {
+  console.log("we fot a request, yo");
+});
