@@ -14,7 +14,11 @@ app.listen(port, () => {
 
 // define routes
 app.get("/jokes/:age", (request, response) => {
-  const age = request.params.age;
+  const age = parseInt(request.params.age);
+  if (isNaN(age)) {
+    response.send("You are drunk, or evil, go home");
+  }
+
   console.log("we fot a request, yo");
   if (age > 18) {
     response.send("This app");
