@@ -13,7 +13,12 @@ app.listen(port, () => {
 });
 
 // define routes
-app.get("/jokes", (request, response) => {
+app.get("/jokes/:age", (request, response) => {
+  const age = request.params.age;
   console.log("we fot a request, yo");
-  response.send("Hello");
+  if (age > 18) {
+    response.send("This app");
+  } else {
+    response.send("Q:How do you do make an Octopus laugh? A: With tentacles!");
+  }
 });
