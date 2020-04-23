@@ -35,6 +35,26 @@
 
 - [x] create a repository on github (creating a remote)
 - [x] add a remote repository to our local repository (git remote add git@github....)
-- [] push it to the limit / push it good, real good / push your changes
+- [x] push it to the limit / push it good, real good / push your changes
 
 ## How to restart your server automatically
+
+```bash
+npm install -D nodemon
+```
+
+make a script in package.json
+
+```json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
+  },
+```
+
+or just run
+
+```bash
+npx nodemon index.js
+```
