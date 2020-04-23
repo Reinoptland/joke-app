@@ -23,6 +23,16 @@ app.get("/jokes/:age", (request, response) => {
   if (age > 18) {
     response.send("This app");
   } else {
-    response.send("Q:How do you do make an Octopus laugh? A: With tentacles!");
+    response.send(`
+        <html>
+            <style> 
+                h1 {
+                    color: #FABF00;
+                }
+            </style>
+            <p>${age}</p>
+            <h1>Q:How do you do make an Octopus laugh? A: With tentacles!</h1>
+        <html>
+    `);
   }
 });
