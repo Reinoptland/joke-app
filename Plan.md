@@ -14,11 +14,11 @@
 ## Setup
 
 - [x] make folder
-- [] start tracking our work in git
+- [x] start tracking our work in git
 - [] commit our work as we go
-- [] if we use package, we want to .gitignore our node_modules
-- [] initialize package.json (npm init) -> so we can install libraries
-- [] install the package we need: express
+- [x] if we use package, we want to .gitignore our node_modules
+- [x] initialize package.json (npm init) -> so we can install libraries
+- [x] install the package we need: express
 - [] configure our express
   - [] import the library and use it
   - [] set a port
