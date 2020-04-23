@@ -13,6 +13,7 @@ app.listen(port, () => {
 });
 
 // define routes
-app.get("/jokes", () => {
+app.get("/jokes", (request, response) => {
   console.log("we fot a request, yo");
+  response.send("Hello");
 });
